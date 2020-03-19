@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08C567AE242376C800FE8DD9 /* COVID_19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C567AD242376C800FE8DD9 /* COVID_19.swift */; };
-		28F67781449585A10568CDBCBCA4A3D6 /* COVID_19SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B5265E56CCB46CB2AEA1C3B399D79C /* COVID_19SDK-dummy.m */; };
 		30CD2B5AD96F91954A4BECC7A0FA3B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6D94F5197DD037772E1CBB7D8FEB58BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		86FB0FA34D74DFF94B08490E86A332B1 /* COVID_19.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DDF7A66323670C98E8035C39B54140 /* COVID_19.swift */; };
 		9370597F58E60B863B93B3561A87EAC6 /* Pods-COVID_19SDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E01E88ED93BE5DF52849F6CEFE7BF3 /* Pods-COVID_19SDK_Tests-dummy.m */; };
-		BC6287187D9C7CB8492BD41B35C132B0 /* COVID_19SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCBDE798115E1746C1F0797CDB2ABFB /* COVID_19SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7A591F7406B8B64BA9B05102E245AA4 /* COVID_19SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 624EB79823480C2708528490283CE295 /* COVID_19SDK-dummy.m */; };
+		BC6287187D9C7CB8492BD41B35C132B0 /* COVID_19SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25671A866C70247A03C7696B362E54CF /* COVID_19SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D713B3EC1EDB963026A27ED7A0C3D91F /* Pods-COVID_19SDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1343F6394925D7246607BDF4DED3D1B6 /* Pods-COVID_19SDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,28 +27,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0599ECBF27AF6746D3605B164939993A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		08C567AD242376C800FE8DD9 /* COVID_19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COVID_19.swift; path = COVID_19SDK/Classes/COVID_19.swift; sourceTree = "<group>"; };
 		1343F6394925D7246607BDF4DED3D1B6 /* Pods-COVID_19SDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-COVID_19SDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1752A8FA2933B54013EA66770CA3801D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		180742E5627B6D8D9A278713D3FA8678 /* Pods-COVID_19SDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-COVID_19SDK_Tests.modulemap"; sourceTree = "<group>"; };
+		1EE41630ED4BB49CE43EF4D72B8D4D10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		25671A866C70247A03C7696B362E54CF /* COVID_19SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "COVID_19SDK-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3CFA7F708D148A72B5A0F74B84ADAA48 /* COVID_19SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = COVID_19SDK.xcconfig; sourceTree = "<group>"; };
+		3C8CD665F20340EBA353EC3762437FBB /* COVID_19SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = COVID_19SDK.xcconfig; sourceTree = "<group>"; };
 		41285E463D3755F14B095346E92BAFB4 /* Pods-COVID_19SDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COVID_19SDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		41B5265E56CCB46CB2AEA1C3B399D79C /* COVID_19SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "COVID_19SDK-dummy.m"; sourceTree = "<group>"; };
-		4DCBDE798115E1746C1F0797CDB2ABFB /* COVID_19SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "COVID_19SDK-umbrella.h"; sourceTree = "<group>"; };
-		521F681A04C7ABDC09F431CB9DC3CB6F /* COVID_19SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "COVID_19SDK-prefix.pch"; sourceTree = "<group>"; };
-		52F57E3BDA5C4601B62614968D132422 /* COVID_19SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "COVID_19SDK-Info.plist"; sourceTree = "<group>"; };
-		6F454222B772675E6689829C5B53AB95 /* COVID_19SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = COVID_19SDK.modulemap; sourceTree = "<group>"; };
-		7192563108D7419EF7D7011868CC7E6E /* Pods_COVID_19SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID_19SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75A9716D091F4A5164219A700C0E1D69 /* COVID_19SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = COVID_19SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4BE63488BA49FD062FC23E0A15C214 /* COVID_19SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "COVID_19SDK-prefix.pch"; sourceTree = "<group>"; };
+		624EB79823480C2708528490283CE295 /* COVID_19SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "COVID_19SDK-dummy.m"; sourceTree = "<group>"; };
+		7192563108D7419EF7D7011868CC7E6E /* Pods_COVID_19SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_COVID_19SDK_Tests.framework; path = "Pods-COVID_19SDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A9716D091F4A5164219A700C0E1D69 /* COVID_19SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = COVID_19SDK.framework; path = COVID_19SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B51DA92130243E8616E5C6FC4EE55A1 /* Pods-COVID_19SDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-COVID_19SDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		971D5C60350C543BDBD58CBFF5F33208 /* Pods-COVID_19SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COVID_19SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9B65AA7BF3F3A493EC9A0116D0A9DFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C4E8712FDD5027939CA6CA4FA6383F6A /* COVID_19SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = COVID_19SDK.modulemap; sourceTree = "<group>"; };
 		C90AFC6110AB3DFA53ACF5AD87D2DF40 /* Pods-COVID_19SDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-COVID_19SDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF716D7DFA9C65DCBE01B346A6ABB14D /* Pods-COVID_19SDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-COVID_19SDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		D4266ECE202F7326631E9A6DD197179F /* COVID_19SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = COVID_19SDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D4E01E88ED93BE5DF52849F6CEFE7BF3 /* Pods-COVID_19SDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-COVID_19SDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		DFE4EEDCF2F8279BC8F2B9F7C6E72601 /* COVID_19SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = COVID_19SDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6DDF7A66323670C98E8035C39B54140 /* COVID_19.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = COVID_19.swift; path = COVID_19SDK/Classes/COVID_19.swift; sourceTree = "<group>"; };
+		E708DBDAF6A687A45BAA5C5C023C3E57 /* COVID_19SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "COVID_19SDK-Info.plist"; sourceTree = "<group>"; };
 		F8DE19C41230712CF46EC84CCB2BFA37 /* Pods-COVID_19SDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-COVID_19SDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,18 +72,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02005D9C907DE581AD88C6F2FECBD323 /* Support Files */ = {
+		06C4664700CE257C53024D3B03545251 /* COVID_19SDK */ = {
 			isa = PBXGroup;
 			children = (
-				6F454222B772675E6689829C5B53AB95 /* COVID_19SDK.modulemap */,
-				3CFA7F708D148A72B5A0F74B84ADAA48 /* COVID_19SDK.xcconfig */,
-				41B5265E56CCB46CB2AEA1C3B399D79C /* COVID_19SDK-dummy.m */,
-				52F57E3BDA5C4601B62614968D132422 /* COVID_19SDK-Info.plist */,
-				521F681A04C7ABDC09F431CB9DC3CB6F /* COVID_19SDK-prefix.pch */,
-				4DCBDE798115E1746C1F0797CDB2ABFB /* COVID_19SDK-umbrella.h */,
+				E6DDF7A66323670C98E8035C39B54140 /* COVID_19.swift */,
+				45EA97F9645DC16166483D85871B9FB2 /* Pod */,
+				F4F5C76F3C4BDA439D28C4D2CC7F1069 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/COVID_19SDK";
+			name = COVID_19SDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45EA97F9645DC16166483D85871B9FB2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4EEDCF2F8279BC8F2B9F7C6E72601 /* COVID_19SDK.podspec */,
+				1EE41630ED4BB49CE43EF4D72B8D4D10 /* LICENSE */,
+				B9B65AA7BF3F3A493EC9A0116D0A9DFE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8929275E1CE9D256082968C1FF721FD7 /* Targets Support Files */ = {
@@ -92,17 +99,6 @@
 				CBCBC263D12F02F0FDF993D33E5C332A /* Pods-COVID_19SDK_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		993D312827CE8ACE0880F502C38F00FB /* COVID_19SDK */ = {
-			isa = PBXGroup;
-			children = (
-				08C567AD242376C800FE8DD9 /* COVID_19.swift */,
-				EA4FFF55BE297AB789D6585CD1550B45 /* Pod */,
-				02005D9C907DE581AD88C6F2FECBD323 /* Support Files */,
-			);
-			name = COVID_19SDK;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -142,7 +138,7 @@
 		CDAB1CCEAEDA9FF350B000E40D1D3035 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				993D312827CE8ACE0880F502C38F00FB /* COVID_19SDK */,
+				06C4664700CE257C53024D3B03545251 /* COVID_19SDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -166,14 +162,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA4FFF55BE297AB789D6585CD1550B45 /* Pod */ = {
+		F4F5C76F3C4BDA439D28C4D2CC7F1069 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D4266ECE202F7326631E9A6DD197179F /* COVID_19SDK.podspec */,
-				0599ECBF27AF6746D3605B164939993A /* LICENSE */,
-				1752A8FA2933B54013EA66770CA3801D /* README.md */,
+				C4E8712FDD5027939CA6CA4FA6383F6A /* COVID_19SDK.modulemap */,
+				3C8CD665F20340EBA353EC3762437FBB /* COVID_19SDK.xcconfig */,
+				624EB79823480C2708528490283CE295 /* COVID_19SDK-dummy.m */,
+				E708DBDAF6A687A45BAA5C5C023C3E57 /* COVID_19SDK-Info.plist */,
+				5B4BE63488BA49FD062FC23E0A15C214 /* COVID_19SDK-prefix.pch */,
+				25671A866C70247A03C7696B362E54CF /* COVID_19SDK-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/COVID_19SDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +222,7 @@
 			buildConfigurationList = F9E61B786945CD9AAAF5F380AD673679 /* Build configuration list for PBXNativeTarget "COVID_19SDK" */;
 			buildPhases = (
 				33A2CA0F57379C5757A9A4377463F3D3 /* Headers */,
-				C8E671310BCE1A7F88C26E03E582CFA0 /* Sources */,
+				3229105EC6716F575377490E24CE0961 /* Sources */,
 				0FBADBD6C57B11CEE2C4E17FE27CED50 /* Frameworks */,
 				F901A001B04946674DF8FF69EB398E59 /* Resources */,
 			);
@@ -281,20 +281,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3229105EC6716F575377490E24CE0961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FB0FA34D74DFF94B08490E86A332B1 /* COVID_19.swift in Sources */,
+				B7A591F7406B8B64BA9B05102E245AA4 /* COVID_19SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B7A898F0AA7F994244A1417A2B79302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9370597F58E60B863B93B3561A87EAC6 /* Pods-COVID_19SDK_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8E671310BCE1A7F88C26E03E582CFA0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28F67781449585A10568CDBCBCA4A3D6 /* COVID_19SDK-dummy.m in Sources */,
-				08C567AE242376C800FE8DD9 /* COVID_19.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +310,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		035C607B2470685F222FC8E3BD338190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8CD665F20340EBA353EC3762437FBB /* COVID_19SDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/COVID_19SDK/COVID_19SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK.modulemap";
+				PRODUCT_MODULE_NAME = COVID_19SDK;
+				PRODUCT_NAME = COVID_19SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		112B4AE158D4FDC5607356D304B6B7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41285E463D3755F14B095346E92BAFB4 /* Pods-COVID_19SDK_Tests.debug.xcconfig */;
@@ -337,72 +369,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		15E5FA34BE5F2B6D4B922F36EDAF6B1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CFA7F708D148A72B5A0F74B84ADAA48 /* COVID_19SDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/COVID_19SDK/COVID_19SDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK.modulemap";
-				PRODUCT_MODULE_NAME = COVID_19SDK;
-				PRODUCT_NAME = COVID_19SDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		39039762193B433A6B30F4B8AAFCC7A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CFA7F708D148A72B5A0F74B84ADAA48 /* COVID_19SDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/COVID_19SDK/COVID_19SDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK.modulemap";
-				PRODUCT_MODULE_NAME = COVID_19SDK;
-				PRODUCT_NAME = COVID_19SDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -436,7 +402,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		999D7FD58D451441300F6493DF0AAC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8CD665F20340EBA353EC3762437FBB /* COVID_19SDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/COVID_19SDK/COVID_19SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/COVID_19SDK/COVID_19SDK.modulemap";
+				PRODUCT_MODULE_NAME = COVID_19SDK;
+				PRODUCT_NAME = COVID_19SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -492,12 +490,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -554,7 +553,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -591,8 +590,8 @@
 		F9E61B786945CD9AAAF5F380AD673679 /* Build configuration list for PBXNativeTarget "COVID_19SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39039762193B433A6B30F4B8AAFCC7A4 /* Debug */,
-				15E5FA34BE5F2B6D4B922F36EDAF6B1A /* Release */,
+				035C607B2470685F222FC8E3BD338190 /* Debug */,
+				999D7FD58D451441300F6493DF0AAC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

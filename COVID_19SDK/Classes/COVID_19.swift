@@ -11,7 +11,7 @@ import UserNotifications
 import UIKit
 import CoreLocation
 
-@available(iOS 10.0, *)
+
 public class COVID_19 {
     
     private static let COVID_19_NOTIFICATION_ID = "COVID_19_NOTIFICATION_ID"
