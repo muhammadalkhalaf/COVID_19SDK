@@ -33,7 +33,7 @@ public class COVID_19 {
         let content = UNMutableNotificationContent()
         content.title = "Coronavirus disease (COVID-19)"
         content.body = "We strongly recommend that you examine yourself"
-        content.sound = UNNotificationSound.default()
+        content.sound = UNNotificationSound.default
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         let request = UNNotificationRequest(identifier:COVID_19_NOTIFICATION_ID,content:content,trigger:trigger)
         center.add(request)
