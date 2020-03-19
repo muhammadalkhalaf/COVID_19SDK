@@ -1,0 +1,6 @@
+use_frameworks!
+target 'COVID_19SDK_Tests' do
+  pod 'COVID_19SDK', :path => '../'
+  
+  
+end
