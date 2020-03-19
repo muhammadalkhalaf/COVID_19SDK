@@ -1,0 +1,6 @@
+framework module COVID_19SDK {
+  umbrella header "COVID_19SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "COVID_19SDK",
+  "version": "0.1.0",
+  "summary": "A short description of COVID_19SDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muhammadalkhalaf/COVID_19SDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muhammadalkhalaf": "muhammed.kh@medrics.net"
+  },
+  "source": {
+    "git": "https://github.com/muhammadalkhalaf/COVID_19SDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "COVID_19SDK/Classes/**/*"
+}
