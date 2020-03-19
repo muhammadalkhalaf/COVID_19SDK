@@ -17,7 +17,7 @@ COVID_19SDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'COVID_19SDK'
+pod 'COVID_19SDK', :git => 'https://github.com/muhammadalkhalaf/COVID_19SDK.git'
 ```
 
 ## Author
